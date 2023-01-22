@@ -44,7 +44,7 @@ btnRoll.addEventListener(`click`, function () {
     // random dice roll with img
     const dice = Math.floor(Math.random() * 6) + 1;
     diceImg.classList.remove(`hidden`);
-    diceImg.src = `dice-${dice}.png`;
+    diceImg.src = `img/dice-${dice}.png`;
 
     // if dice = 1, switch player
     if (dice !== 1) {
@@ -64,7 +64,7 @@ btnHold.addEventListener(`click`, function () {
       final[activePlayer];
 
     // if final score >= 100 the player wins and the button stops working, also change background color
-    if (final[activePlayer] >= 10) {
+    if (final[activePlayer] >= 100) {
       playing = false;
       diceImg.classList.add(`hidden`);
       document
