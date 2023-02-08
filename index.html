@@ -13,7 +13,7 @@
   <main>
     <section class="player player--0 player--active">
       <h2 class="name" id="name--0">Player 1</h2>
-      <p class="score" id="score--0">45</p>
+      <p class="score" id="score--0">100</p>
       <div class="current">
         <p class="current-label">Current</p>
         <p class="current-score" id="current--0">0</p>
@@ -28,23 +28,23 @@
       </div>
     </section>
 
-    <img src="dice-1.png" alt="Playing dice" class="dice hidden" />
+    <img src="dice-1.png" alt="Playing dice" class="dice" id="" />
     <button class="btn btn--new">🔄 New game</button>
     <button class="btn btn--roll">🎲 Roll dice</button>
     <button class="btn btn--hold">📥 Hold</button>
     <button class="btn btn--rules">📐 Rules</button>
-    <!-- <div class="hidden">
-      <button class="close-modal">&times;</button>
+    <div class="rules display">
+      <button class="close-rules">&times;</button>
       <h1>Rules of the Game</h1>
       <p>
         Roll the dice and store the points you get, If the dice gives 1 you lose your current points so store the points
         discreetly. The first player to reach 100 points wins the game.
       </p>
     </div>
-    <div class="overlay"></div> -->
+    <div class="overlay display"></div>
 
   </main>
-  <script src="js.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
