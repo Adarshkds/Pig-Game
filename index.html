@@ -28,7 +28,7 @@
       </div>
     </section>
 
-    <img src="dice-1.png" alt="Playing dice" class="dice hidden" />
+    <img src="img/dice-1.png" alt="Playing dice" class="dice hidden" />
     <button class="btn btn--new">🔄 New game</button>
     <button class="btn btn--roll">🎲 Roll dice</button>
     <button class="btn btn--hold">📥 Hold</button>
@@ -36,15 +36,34 @@
     <div class="rules display">
       <button class="close-rules">&times;</button>
       <h1>Rules of the Game</h1>
+      <ol>
+        <li>
+          Each player takes turns rolling the die.
+        </li>
+        <li>
+          On a player's turn, they can choose to roll the die as many times as they want.
+        </li>
+        <li>
+          If a player rolls a 1, their turn ends and they score 0 points for that turn.
+        </li>
+        <li>
+          If a player rolls any other number, the number is added to their turn total.
+        </li>
+        <li>
+          At any time, a player can choose to end their turn and add their turn total to their overall score.
+        </li>
+        <li>
+          The first player to reach a total score of 100 wins the game.</li>
+      </ol>
+
       <p>
-        Roll the dice and store the points you get, If the dice gives 1 you lose your current points so store the points
-        discreetly. The first player to reach 100 points wins the game.
+        &#9734&#9733&#9734&#9733 Enjoy the game &#9733&#9734&#9733&#9734
       </p>
     </div>
     <div class="overlay display"></div>
 
   </main>
-  <script src="js.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
