@@ -1,4 +1,4 @@
-Here are the rules of the game in point form:
+Here are the rules of the game:
 
 1. Each player takes turns rolling the die.
 2. On a player's turn, they can choose to roll the die as many times as they want.
